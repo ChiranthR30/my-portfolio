@@ -1,9 +1,9 @@
 {
-  "homepage": "https://ChiranthR30.github.io/my-portfolio",
+  "homepage": "https://ChiranthR30.github.io/portfolio-m",
   "name": "kizou",
   "version": "0.1.0",
   "homepage": "http://kizou.org",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@headlessui/react": "^1.5.0",
     "@heroicons/react": "^1.0.5",
