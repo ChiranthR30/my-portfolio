@@ -1,8 +1,9 @@
 {
+  "homepage": "https://ChiranthR30.github.io/my-portfolio",
   "name": "kizou",
   "version": "0.1.0",
   "homepage": "http://kizou.org",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@headlessui/react": "^1.5.0",
     "@heroicons/react": "^1.0.5",
@@ -17,10 +18,13 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +49,5 @@
     "postcss": "^8.4.5",
     "tailwind-styled-components": "^2.1.4",
     "tailwindcss": "^3.0.6"
-  }
+  } 
 }

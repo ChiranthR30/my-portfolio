@@ -30,18 +30,36 @@ const About = () => {
         </div>
         <div className="text-[#a2aabc] text-lg mt-5">
           <code>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id eros
-            non nisi vulputate eleifend. Vestibulum erat ipsum, lacinia ut nibh
-            ut, pulvinar interdum lorem. Aliquam et nisi eu risus ultrices
-            suscipit nec nec quam. Suspendisse pretium fermentum luctus.
-            Maecenas vitae vestibulum ipsum, ut varius diam. Phasellus mattis
-            nunc vel purus maximus, sit amet congue ligula tincidunt. Nulla
-            tristique luctus lacinia. Nullam ut tortor arcu.
+I'm a computer science student at PES University, and I'm passionate about modern technology. I'm skilled in languages like Python, C++,Java,JavaScript, and I enjoy creating web applications using the MERN stack. I've worked with databases like MySQL and NoSQL systems. I've also explored and worked with Big Data tools like Hadoop and Spark. My enthusiasm extends to emerging tech like Machine Learning and AI. I'm adaptable and eager to keep up with the ever-changing tech world, making me a valuable asset in any project.
           </code>
           <br />
           <br />
-          <code>Aenean in mi non leo placerat suscipit a eget odio:</code>
+          <code>My skills and technologies:</code>
           <div className="grid grid-cols-3 gap-2 text-sm mt-5 text-brown_vs">
+            <div className="flex flex-row  mb-3">
+              <img
+                src={PythonLogo}
+                alt="Python Logo"
+                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
+              />
+              <code>Python</code>
+            </div>
+            <div className="flex flex-row mb-3">
+              <img
+                src={TypescriptLogo}
+                alt="Typescript Logo"
+                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
+              />
+              <code>C++</code>
+            </div>
+            <div className="flex flex-row mb-3">
+              <img
+                src={NextLogo}
+                alt="Next Logo"
+                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
+              />
+              <code>Java</code>
+            </div>
             <div className="flex flex-row  mb-3">
               <img
                 src={JsLogo}
@@ -50,14 +68,7 @@ const About = () => {
               />
               <code>JavaScript (ES6+)</code>
             </div>
-            <div className="flex flex-row mb-3">
-              <img
-                src={NextLogo}
-                alt="Next Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>Next.js</code>
-            </div>
+
             <div className="flex flex-row mb-3">
               <img
                 src={ReactLogo}
@@ -66,14 +77,7 @@ const About = () => {
               />
               <code>React</code>
             </div>
-            <div className="flex flex-row mb-3">
-              <img
-                src={TypescriptLogo}
-                alt="Typescript Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>TypeScript</code>
-            </div>
+
             <div className="flex flex-row  mb-3">
               <img
                 src={TailwindLogo}
@@ -88,23 +92,16 @@ const About = () => {
                 alt="Redux Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
-              <code>Redux</code>
+              <code>Hadoop</code>
             </div>
-            <div className="flex flex-row  mb-3">
-              <img
-                src={PythonLogo}
-                alt="Python Logo"
-                className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
-              />
-              <code>Python</code>
-            </div>
+
             <div className="flex flex-row mb-3">
               <img
                 src={FirebaseLogo}
                 alt="Firebase Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
-              <code>Firebase</code>
+              <code>GitHub</code>
             </div>
             <div className="flex flex-row mb-3">
               <img
