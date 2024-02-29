@@ -6,9 +6,9 @@ const LinkedinLogo = require("../assets/logos/LinkedinLogo.png");
 const KaggleLogo = require("../assets/logos/KaggleLogo.png");
 const MailLogo = require("../assets/logos/MailLogo.png");
 
-const JSIcon = require("../assets/icons/JSIcon.png");
+//const JSIcon = require("../assets/icons/JSIcon.png");
 const pyIcon = require("../assets/icons/PythonLogo.png");
-const TSIcon = require("../assets/icons/TSIcon.png");
+//const TSIcon = require("../assets/icons/TSIcon.png");
 const sqlIcon = require("../assets/icons/SqlLogo.png");
 const nuIcon = require("../assets/icons/nu.png");
 const reactLogo=require("../assets/icons/ReactLogo.png");
